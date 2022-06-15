@@ -1,0 +1,114 @@
+body{
+    background: #212121;
+}
+
+
+div .l-column{
+    background-color: none;
+  
+  }
+  .l-column{
+    background-color: none;
+    width: 300px;
+    position: relative;
+    left:1cm;
+    height: 20px;
+  }
+  .l-column .input-box input{
+    outline: none;
+    z-index: 1;
+    position: relative;
+    background: none;
+    width: 7cm;
+    height: 60px;
+    border: 0;
+    color: #212121;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .l-column .input-box textarea{
+    outline: none;
+    z-index: 1;
+    position: relative;
+    background: none;
+    width: 7cm;
+    height: 4cm;
+    border: 0;
+    color: #212121;
+    font-size: 15px;
+    font-weight: 700;
+  
+  }
+  .l-column .input-box{
+    padding-top: 20px;
+  }
+  
+  .l-column .input-box .lin{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background: #757575;
+    width: 7cm;
+    height: 1px;
+  }
+  /*--------------------------- rightcolumn--------------------*/
+  .r-column{
+    position: relative;
+    right: -12cm;
+    top: .1cm;
+  
+  }
+  
+  .r-column .input-box input{
+    outline: none;
+    z-index: 1;
+    position: relative;
+    background: none;
+    width: 7cm;
+    height: 60px;
+    border: 0;
+    color: #212121;
+    font-size: 15px;
+    font-weight: 700;
+  
+  }
+  .r-column .input-box .lin{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background: #757575;
+    width: 7cm;
+    height: 1px;
+  }
+  .form-container{
+    background-color: #f1f1f1;
+    width: 20cm;
+    position: relative;
+    left:5cm;
+    top: 2cm;
+    height: 12cm;
+    border-radius: .5cm;
+    
+  }
+  /*-----------------------button------------------------------------*/
+  .r-column .btn .send-button{
+    border: none;
+    outline: none;
+    background-color: slategrey;
+    border-radius: 1cm;
+    color: black;
+    box-shadow: cadetblue;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .r-column .btn .send-button:hover{
+    background-color: rgb(151, 243, 182);
+  
+  }
+  .r-column .btn .send-button:active{
+    background-color: rgb(64, 247, 125);
+  
+  }
+  a{
+    text-decoration: none;
+  }

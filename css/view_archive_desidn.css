@@ -1,0 +1,13 @@
+.search{
+    
+    right: fixed;  
+}
+.search input {
+    border-radius: 1cm;
+
+}
+#searchModal{
+    width: 50cm;
+}
+
+
