@@ -391,20 +391,20 @@ $(document).on('click', '#left', function(){
       $archive_path = substr($path_name->path,8,null).$pathn;
       ?>
       
-    <button style="border: none; background: none" onMouseOver="this.style.background='#b5dafe'" onMouseOut="this.style.background='#fff'">
+    <button style="border: none; background: none; margin-left: -11px;" onMouseOver="this.style.background='#b5dafe'" onMouseOut="this.style.background='#fff'">
     <a href="createfolderfile.php?id=<?=$fld_id->id;?>&folder=<?=$pathn?>&path=<?=$archive_path?>" style="text-decoration: none"><?=$paths[$i];?></a>
     </button>
-    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20">
+    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" style="margin-left: -11px;">
       <path d="M7.833 14.646 6.958 13.771 10.75 9.979 6.958 6.188 7.833 5.312 12.5 9.979Z"/>
     </svg>
     
     <?php
     }
        ?>
-       <button style="border: none; background: none" onMouseOver="this.style.background='#b5dafe'" onMouseOut="this.style.background='#fff'">
+       <button style="border: none; background: none; margin-left: -11px;" onMouseOver="this.style.background='#b5dafe'" onMouseOut="this.style.background='#fff'">
        <a href="" style="text-decoration: none"><?=$_GET['folder'];?></a>
       </button>
-      <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" style="margin-left: -11px;">
         <path d="M7.833 14.646 6.958 13.771 10.75 9.979 6.958 6.188 7.833 5.312 12.5 9.979Z"/>
       </svg>
        
